@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.container i {
+    font-size: 200px;
+}
+
+.container h2 {
+    font-size: 44px;
+    color: #B486AB;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif;
+}

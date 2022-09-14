@@ -1,0 +1,89 @@
+.cart-title {
+    font-size: 30px;
+    color: var(--pink);
+    font-weight: 800;
+    padding: 7px 0;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif
+}
+
+li {
+    display: flex;
+    box-shadow: rgba(66, 66, 253, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px 0;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.remove-button {
+    background-color: #DFAEB4;
+    border: none;
+    color: white;
+    padding: 20px;
+    height: 100%;
+    transition: .2s all;
+}
+
+.remove-button:hover {
+    filter: brightness(0.9);
+}
+
+.cart-total {
+    font-size: 24px;
+    color: var(--purple);
+    font-weight: 800;
+    padding: 9px 0;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif
+}
+
+input {
+    width: 30px;
+    text-align: center;
+}
+
+.buy-button {
+    background-color: var(--dark-purple);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    transition: .3s all;
+    margin-right: 5px;
+}
+
+.buy-button:hover {
+    filter: brightness(0.9);
+}
+
+.clean-button {
+    background-color: var(--dark-purple);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    transition: .3s all;
+    margin-left: 5px;
+}
+
+.clean-button:hover {
+    filter: brightness(0.9);
+}
+
+.semProduto {
+    color: var(--purple);
+    color: #B486AB;
+    font-size:20px;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', 'Arial narrow', sans-serif; 
+}

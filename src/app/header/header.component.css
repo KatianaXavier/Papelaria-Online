@@ -1,0 +1,66 @@
+.main-header {    
+    padding: 10px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.main-header__title {    
+    font-size: 80px;
+    letter-spacing: -1.5px;
+    cursor: pointer;
+}
+
+.main-header__title--purple {
+    color: var(--purple);
+    color: #B486AB;
+    font-size:60px;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', 'Arial narrow', sans-serif; 
+}
+
+.main-header__title--pink {
+    color: var(--pink);
+    color: #dd9ac2;
+    font-size:60px;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200px;
+    font-stretch: ultra-expanded
+}
+
+.main-header__menu ul {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-header__menu a {
+    padding: 10px 10px;
+    color: var(--light-gray-3);
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.main-header__menu a:hover {
+    background-color: var(--dark-purple);
+    color: #fff;
+}
+
+.container-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    flex: 1;
+}
+
+.badge-carrinho {
+    background-color: var(--light-purple-2);
+    padding: 5px 10px;    
+    border-radius: 4px;
+    color: white;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif
+}

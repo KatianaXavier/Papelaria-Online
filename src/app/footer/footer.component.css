@@ -1,0 +1,44 @@
+.footer {
+    background-color: var(--light-gray);        
+    color: var(--light-gray-3);
+    font-size: 18px;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 20px;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 20px;
+    background-color: var(--light-gray-2);    
+    font-weight: bold;
+    padding: 20px;
+    color: var(--dark-purple);
+}
+
+.footer__title {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--dark-purple);
+    margin-bottom: 5px;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif
+}
+
+.footer__about-text {
+    width: 300px;
+    text-align: justify;
+    font-family: 'Bahnschrift SemiBold', 'Arial Narrow', Arial, sans-serif
+}
+
+.footer i {
+    color: var(--pink);
+}
+
+.footer li {
+    margin: 10px 0;
+}
