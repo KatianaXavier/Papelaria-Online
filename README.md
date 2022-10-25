@@ -13,4 +13,4 @@ Alguns conceitos utilizados:
 - forms reativos,
 - barra de pesquisa.
 
-https://katianaxavier.github.io/papelariaOnline/produtos
+https://katianaxavier.github.io/papelariaOnline/
