@@ -1,16 +1,29 @@
-# PapelariaOnline 📔
+<h1 align="center">
+  Papelaria Online 
+</h1>
 
-Esta é uma loja online fictícia, desenvolvida durante o programa Start by Capgemini. Neste projeto foi utilizado HTML, CSS, TypeScript, JavaScript e Angular. 
+### 👩🏻‍💻 Projeto
 
-Alguns conceitos utilizados:
+<strong>Loja online</strong> fictícia desenvolvida durante o Programa Start by Capgemini. Nela foram trabalhados conceitos de:
 
-- header, 
-- footer,
+- header e footer,
 - criação de página de produtos,
 - página de carrinho, 
 - página não encontrada, 
 - serviço de notificação,
-- forms reativos,
-- barra de pesquisa.
+- forms reativos e validação de dados,
+- barra de pesquisa e 
+- estilizações com arquivo externo (CSS).
 
-https://katianaxavier.github.io/papelariaOnline/
+#### Veja o projeto aqui:
+🔗 https://katianaxavier.github.io/papelariaOnline/
+
+### 💫 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- TypeScript
+- JavaScript
+- Angular
